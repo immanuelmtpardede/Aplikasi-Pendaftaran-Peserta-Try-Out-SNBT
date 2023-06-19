@@ -1,0 +1,22 @@
+html, body{
+  height: 100%;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  background-color: cyan;
+}
+
+.form-signin, .form-register{
+  max-width: 330px;
+  padding: 15px;
+}
+
+.form-signin .form-floating:focus-within, .form-register .form-floating:focus-within{
+  z-index: 7;
+}
+
+.inputBottom{
+  margin-bottom: 10px;
+}
